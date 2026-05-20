@@ -119,17 +119,6 @@ Run steps:
 2. Select the `MobilityStation` scheme
 3. Run on an iOS 16+ simulator or device
 
-## Verification
-
-I verified the submission in the following ways:
-
-### Build Verification
-
-- Ran:
-  - `xcodebuild -scheme MobilityStation -project MobilityStation.xcodeproj -destination 'platform=iOS Simulator,name=iPhone 16,OS=18.4' build`
-- Result:
-  - `BUILD SUCCEEDED`
-
 ### Cache And Fallback Verification
 
 - Confirmed that successful fetches are written into local cache through `StationStore`
