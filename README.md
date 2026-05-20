@@ -98,7 +98,7 @@ This keeps remote freshness concerns separate from user-owned favorite state and
 
 The app uses a simple persistence model that fits the assignment scope:
 
-1. Successful live responses are stored as JSON snapshots in `Application Support`.
+1. Successful live responses are stored as JSON snapshots.
 2. Favorite station IDs are stored in `UserDefaults`.
 3. If a live fetch fails, the app first attempts to use cached station data.
 4. If cached data is unavailable, the app loads `stations_fallback.json` from the app bundle.
