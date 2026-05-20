@@ -1,0 +1,49 @@
+{
+  "network": {
+    "id": "velib",
+    "name": "Vélib' Métropole",
+    "location": {
+      "latitude": 48.856614,
+      "longitude": 2.3522219,
+      "city": "Paris",
+      "country": "FR"
+    },
+    "href": "/v2/networks/velib",
+    "company": [
+      "Smovengo"
+    ],
+    "license": {
+      "name": "OPEN LICENCE 2.0",
+      "url": "etalab.gouv.fr/wp-content/uploads/2018/11/open-licence.pdf"
+    },
+    "ebikes": true,
+    "gbfs_href": "https://velib-metropole-opendata.smovengo.cloud/opendata/Velib_Metropole/gbfs.json",
+    "stations": [
+      {
+        "id": "ffebae556fb025e5425befa8f1a43308",
+        "name": "Alexandre Parodi - Quai de Valmy",
+        "latitude": 48.879359419425,
+        "longitude": 2.3665961623192,
+        "timestamp": "2026-05-20T13:39:38.285593+00:00Z",
+        "free_bikes": 2,
+        "empty_slots": 21,
+        "extra": {
+          "uid": "10162",
+          "renting": 1,
+          "returning": 1,
+          "last_updated": "2026-05-20T12:48:34",
+          "payment": [
+            "creditcard"
+          ],
+          "payment-terminal": true,
+          "slots": 24,
+          "virtual": false,
+          "station_id": 911767210,
+          "banking": true,
+          "normal_bikes": 0,
+          "ebikes": 2
+        }
+      }
+    ]
+  }
+}
