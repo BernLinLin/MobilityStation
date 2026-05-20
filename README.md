@@ -183,8 +183,3 @@ The AI-assisted caching and fallback logic was verified by:
 4. verifying that fallback JSON is packaged into the app bundle
 5. running unit tests that specifically cover cache, fallback, and persistence behavior
 
-## Known Limitations
-
-- The full `xcodebuild test` flow is currently affected by the UI test target configuration
-- The app currently uses one live data source only and does not include secondary enrichment such as weather or geocoding
-- The project is intentionally scoped to the assignment requirements and does not include CI, logging infrastructure, or advanced cache invalidation
